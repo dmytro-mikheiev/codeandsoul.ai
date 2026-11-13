@@ -10,6 +10,9 @@ nav { background: #fff; border-bottom: 1px solid var(--line); }
 .btn-premium { transition: background-color 160ms ease, border-color 160ms ease; border-radius: 6px; }
 .btn-premium.bg-navy:hover { background: #294d79; }
 .btn-premium.bg-slate-100:hover { background: #e4eaf1; }
+.btn-upwork { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: #108a00; border-color: #108a00; color: #fff; }
+.btn-upwork:hover { background: #0b6500; border-color: #0b6500; }
+.upwork-icon { width: 20px; height: 20px; flex-shrink: 0; }
 a:focus-visible, button:focus-visible { outline: 3px solid #3876b9; outline-offset: 4px; }
 .hero-content { padding-top: 88px; padding-bottom: 48px; }
 .hero-layout { max-width: 960px; }
